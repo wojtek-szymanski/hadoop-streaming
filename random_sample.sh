@@ -13,7 +13,7 @@ case "$1" in
     test )
         rm -rf ${output_dir}
         mkdir ${output_dir}
-        cat ${input_dir}/cite75_99.txt | python RandomSample.py 10 >${data_dir}/output/sampled_output.txt
+        cat ${input_dir}/cite75_99.txt | python RandomSample.py 10 > ${data_dir}/output/sampled_output.txt
         exit 0
         ;;
 
