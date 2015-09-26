@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [ -z "$1" ]; then
-  echo "Imput mode is required: test|standalone|pseudo-dist"
+  echo "Input mode is required: test|standalone|pseudo-dist"
   exit 1
 fi
 
